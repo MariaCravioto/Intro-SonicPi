@@ -51,5 +51,5 @@ Sonic Pi es una herramienta de creación e interpretación musical basada en có
 
 La interfaz de Sonic Pi cuenta con diferentes funcionalidades y botones que sirven para diferentes propositos entre los cuales encontraras: crear, guardar y ejecutar musica. Usa la siguiente imagen como una guia para familiarizarte con cada sección de Sonic Pi.
 
-![Interfaz Sonic Pi](assets/interfaz2.jpg) 
+![Interfaz Sonic Pi](assets/Interfaz2.jpg) 
 

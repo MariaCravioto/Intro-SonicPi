@@ -29,7 +29,7 @@ Notas  | Valor MIDI
 ------ | ----------
  C D E F G A B | 60 62 64 65 67 69 71 
 
-
+MIDI = Musical Instrument Digital Interface. Refiere a un protocolo estándar de comunicaciones, es decir, es una forma en la que la computadora puede traducir números (que son los que procesa el Sonic Pi y a su vez la computadora) en notas musicales o sonido.
 
 
 # Crea tu primera melodía
@@ -74,6 +74,7 @@ play 72
 Sonic Pi tiene diferentes sintetizadores, los cuales puedes utilizar para modificar el sonido de tu melodía.
 ```
 use_synth :mod_beep
+use_synth :piano
 ```
 
 # Utiliza repeticiones
@@ -100,4 +101,4 @@ end
 ```
 
 # Toca en vivo
-Para modificar tus melodias sin detener la música o tocar en vivo utiliza ```live_loop```
+Para modificar tus melodias sin detener la música o tocar en vivo utiliza ```live_loop``` y modifica el código sin detener la ejecución de la canción.

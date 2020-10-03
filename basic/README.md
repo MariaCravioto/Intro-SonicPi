@@ -1,3 +1,35 @@
+# Introducción
+
+## Notas en el teclado :musical_keyboard:
+El orden de la escala de notas musicales :notes: :notes: es _**do**, **re**, **mi**, **fa**, **sol**, **la**, y **si**_, y el mismo patrón se repite en el :musical_keyboard: teclado después de la nota _**si**_. Las :musical_keyboard: teclas representan cada una, una nota que identificaremos de la siguiente manera: 
+C = do
+
+D = re 
+
+E = mi
+
+F = fa 
+
+G = sol 
+
+A = la 
+
+B = si
+
+![Teclado](assets/teclado.png)
+
+## Octavas del teclado :musical_keyboard:
+En dirección de izquierda a derecha, a cada grupo de notas comprendidas entre do y se le llama  octava. Un piano estándar de 88 teclas tendrá 12,5 octavas. Una nota determinará la tonalidad de  una tecla, mientras que la octava determinará su frecuencia. Las notas de la izquierda tienen una  frecuencia más grave, mientras que las notas de la derecha tendrán una más alta. Casi siempre se  empieza a tocar una canción desde la nota do central, el cual es un término que utiliza para describir  la octava ubicada justo en el centro del piano.
+
+![Octavas](assets/octavas.png)
+
+Los ejercicios que realizaremos utilizaran el valor de las octavas en formato MIDI, la equivalencia de las notas de la 4ta octava son:
+
+Notas  | Valor MIDI
+------ | ----------
+ C D E F G A B | 60 62 64 65 67 69 71 
+
+
 # Crea tu primera melodía
 
 Una melodía es una secuencia de notas musicales, puedes crear tu primera melodia :musical_note: :musical_note: :musical_note: con el siguiente código:

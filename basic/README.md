@@ -32,7 +32,7 @@ Notas  | Valor MIDI
 MIDI = Musical Instrument Digital Interface. Refiere a un protocolo estándar de comunicaciones, es decir, es una forma en la que la computadora puede traducir números (que son los que procesa el Sonic Pi y a su vez la computadora) en notas musicales o sonido.
 
 
-# Crea tu primera melodía
+# Crea tu primera melodía :musical_score::musical_score:
 
 Una melodía es una secuencia de notas musicales, puedes crear tu primera melodia :musical_note: :musical_note: :musical_note: con el siguiente código:
 ```
@@ -69,7 +69,7 @@ play 71
 sleep 1
 play 72
 ```
-# Agrega efectos de sonido
+# Agrega efectos de sonido :control_knobs:
 
 Sonic Pi tiene diferentes sintetizadores, los cuales puedes utilizar para modificar el sonido de tu melodía.
 ```
@@ -77,7 +77,7 @@ use_synth :mod_beep
 use_synth :piano
 ```
 
-# Utiliza repeticiones
+# Utiliza repeticiones :loop:
 Ahora que ya sabes como crear una melodia, ¿qué pasaria si quieres repetir varias veces las mismas notas? Para evitar repetir el codigo una y mil veces, existen las iteraciones, la cual sirve para repetir muchas veces un bloque de código.
 ```
 use_bpm 120 
@@ -100,5 +100,5 @@ use_bpm 120
 end
 ```
 
-# Toca en vivo
+# Toca en vivo :headphones: :control_knobs: :musical_note:
 Para modificar tus melodias sin detener la música o tocar en vivo utiliza ```live_loop``` y modifica el código sin detener la ejecución de la canción.
